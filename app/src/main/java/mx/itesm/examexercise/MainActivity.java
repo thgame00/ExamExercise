@@ -105,6 +105,14 @@ public class MainActivity extends AppCompatActivity {
                     }
                     calculation = calculation + counter + "x5$  ";
                 }
+                //how many 2s
+                if(change >= 2){
+                    for(int i = 0; change >= 2; i++) {
+                        change = change - 2;
+                        counter = i+1;
+                    }
+                    calculation = calculation + counter + "x2$  ";
+                }
                 //how many 1s
                 if(change >= 1){
                     for(int i = 0; change >= 1; i++) {
